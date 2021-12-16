@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+/* footer */
+html, body {
+    height: 100%;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+footer {
+    flex: 0 0 auto;
+}
+.container {
+    flex: 1 0 auto;
+}
+/* footer */
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+header, footer {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Arial';
+    background-color: darkslategrey;
+    margin: 0;
+    padding: 0;
+}
+footer li {
+    padding: 15px;
+    list-style: none;
+    font-size: 18px;
+}
+span {
+    font-weight: bold;
+    color: black;
+}
+footer li:hover {
+    color: white;
+    transition: .2s;
+}
+header h1 {
+    font-size: 36px;
+    padding: 15px 0px;
+}
+body {
+    background-color: #edeef0;
+}
+.art-container {
+    margin: 0 auto;
+    width: 40px;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pixel {
+    width: 15px;
+    height: 15px;
+    border: 1px solid black;
+}
+.color-picker, .settings {
+    max-width: 550px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    display: flex;
+    gap: 25px;
+}
+.settings {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.color {
+    width: 50px;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 50%;
+}
+.color:active, #reset:active {
+    transform: scale(1.1);
+    transition: .1s;
+}
+#reset {
+    font-size: 20px;
+    padding: 5px 20px;
+    border-radius: 8px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.buttons {
+    display: flex;
+    column-gap: 50px;
+}
+#newcolor {
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: black 1px solid;
+}
+#colorpick {
+    display: none; 
+}
+#blue {
+    background-color: blue;
+}
+#orange {
+    background-color: orange;
+}
+#red {
+    background-color: red;
+}
+#white {
+    background-color: #fff;
+}
+#green {
+    background-color: green;
+}
+#yellow {
+    background-color: yellow;
+}
+#pink {
+    background-color: pink;
+}
+#cyan {
+    background-color: cyan;
+}
+#black {
+    background-color: black;
+}
+#brown {
+    background-color: #654321;
+}
